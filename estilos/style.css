@@ -151,6 +151,17 @@ body {
     width: 90%;
     border: 10px outset rgb(196, 145, 245);
 }
+
+/*animaciones*/
+
+.fig:hover{
+    transform: scale(2)
+}
+.fig:hover{
+    transition-property: all;
+    transition-duration: 2s;
+}
+
 #btnsend {
     padding: 10px;
     font-size: 15px;
